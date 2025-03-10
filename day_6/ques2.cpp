@@ -23,5 +23,4 @@ class Solution {
 // TC:O(N)
 // SC:O(1)
 
-// Approach:Traverse through the array two times for index i and for index i+1 whenever two numbers 
-// sum up to get the target then simply return the index values of those respective elements.
+// Approach: Dutch National flag approach
