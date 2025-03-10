@@ -7,8 +7,10 @@ using namespace std;
 class Solution {
     public:
         int distinctIntegers(int n) {
-            if(n==1) return 1;
-            else return n-1;
+            if(n==1){
+                return 1;}
+            else{
+                return n-1;}
         }
     };
 
@@ -23,7 +25,8 @@ class Solution {
           sort(a.begin(),a.end());
           int diff=a[m-1]-a[0];
           for(int i=0;i<=n-m;i++){
-              if((a[i+m-1]-a[i])<diff) diff=(a[i+m-1]-a[i]);
+              if((a[i+m-1]-a[i])<diff){
+                diff=(a[i+m-1]-a[i]);}
           }
           return diff;
       }
