@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 // Problem Name: Two Sum
 // Link:https://leetcode.com/problems/two-sum/description/
 // Code
