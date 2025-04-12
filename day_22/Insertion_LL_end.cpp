@@ -10,7 +10,7 @@ class Solution {
         struct Node * next;
         Node(int x) {
           data = x;
-          next = NULL;
+          next = NULL; 
         }
       Node *insertAtEnd(Node *head, int x) {
           if(head==NULL){
